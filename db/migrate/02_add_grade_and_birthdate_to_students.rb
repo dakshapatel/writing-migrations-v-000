@@ -1,6 +1,6 @@
 class CreateStudents < ActiveRecord::Migration[5.1]
 
-  def change
+  def up
     add_column :students do |t|
       t.integer :grade
       t.string :birthdate
